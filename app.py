@@ -9,9 +9,8 @@ def hello_world():
     # return '<p>Hello, World!</p>'
     return render_template('index.html')
 
-
-client_id = 'BRxQGq5dEtqSNALD60JO'
-client_secret = 'yq2SZXjGq7'
+client_id = ''
+client_secret = ''
 
 @app.route('/translate', methods = ['POST'])
 def do_papago():
